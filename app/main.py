@@ -108,6 +108,11 @@ class OutreachIn(BaseModel):
 
 
 # ---------- health ----------
+@app.get("/")
+def root():
+    return {"service": "Uptime Pro", "version": "1.0.0",
+            "docs": "/docs", "health": "/health", "status": "operational"}
+
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "uptime-pro", "version": "1.0.0"}
