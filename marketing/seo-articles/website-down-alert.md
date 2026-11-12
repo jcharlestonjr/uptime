@@ -14,9 +14,9 @@ word_count: 412
 
 If you run a website, API, or online service, you already know that **downtime costs money**.
 Studies show that even a few minutes of downtime can cost small businesses hundreds of dollars
-in lost revenue and damaged reputation. That's where **website down alert** comes in.
+in lost revenue and damaged reputation. That's exactly what **website down alert** comes in.
 
-In this guide we'll cover everything you need to know about website down alert: what it is, why it matters,
+Here's a quick rundown of website down alert: what it is, why it matters,
 how to choose the right tool, and how to set it up in under 5 minutes.
 
 ## What is website down alert?
@@ -58,9 +58,9 @@ Uptime Pro gives you all of the above in a simple, affordable package:
 
 [Start monitoring for free →](https://uptimepro.app/signup)
 
-## Conclusion
+## Wrapping up
 
-Don't wait for a customer to tell you your site is down. Set up website down alert today and get
+Don't find out your site is down from a customer tweet. Set up website down alert today and get
 peace of mind. With tools like Uptime Pro, it takes less than 5 minutes.
 
 ---

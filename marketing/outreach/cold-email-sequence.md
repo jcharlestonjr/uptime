@@ -1,38 +1,43 @@
 # Cold Outreach Email Sequence
 
-## Day 0: Quick question about YourCompany's uptime
+## Email 1 (Day 0)
 
-Hi Founder,
+Subject: Quick question about {company}'s uptime
 
-I noticed YourCompany serves customers online. Quick question: how do you currently find out when your site goes down?
+Hi {name},
 
-Most teams I talk to either rely on customers complaining or have a clunky setup. I built Uptime Pro to fix that — multi-region checks, instant Slack/email alerts, and a public status page, free to start.
+How do you currently find out when {company}'s site goes down?
 
-Worth a 10-min chat? Or just try it: https://uptime-pro.fly.dev/auth/signup
+Most teams I talk to either rely on customers complaining or have a clunky setup cobbled together from 3 different tools.
 
-— James
+I built Uptime Pro to fix that - multi-region checks, instant Slack/email alerts, and a public status page. Free to start.
 
----
+Worth a 10-min chat? Or just try it: https://uptime-pro.fly.dev
 
-## Day 3: Re: Quick question about YourCompany's uptime
+- James
 
-Hi Founder,
+## Email 2 (Day 3)
 
-Following up — did you get a chance to look? Happy to set up monitoring for YourCompany in 2 minutes if it helps.
+Subject: Re: Quick question about {company}'s uptime
 
-— James
+Hi {name},
 
----
+Following up - did you get a chance to look?
 
-## Day 7: Last note — free uptime monitoring
+Happy to set up monitoring for {company} in 2 minutes if it helps. No credit card needed.
 
-Hi Founder,
+- James
 
-Last note from me. If YourCompany ever has an outage you didn't catch in time, that's the moment this matters. Free tier covers 5 monitors.
+## Email 3 (Day 7)
 
-https://uptime-pro.fly.dev/auth/signup
+Subject: Last note
 
-— James
+Hi {name},
 
----
+Last note from me. If {company} ever has an outage you didn't catch in time, that's the moment this matters.
 
+Free tier covers 5 monitors. Takes 2 minutes to set up.
+
+https://uptime-pro.fly.dev
+
+- James

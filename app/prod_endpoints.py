@@ -11,6 +11,9 @@ from .models import User
 from .auth import get_current_user, create_user, issue_api_key, create_jwt
 from .billing import create_checkout_session, create_customer_portal, handle_webhook, get_plan_features
 from .config import services_configured, settings
+from .posters.devto import devto_configured
+from .posters.hashnode import hashnode_configured
+from .posters.reddit import reddit_configured
 from .emailer import send_email, email_configured
 from .sms import send_sms, sms_configured
 
@@ -83,6 +86,14 @@ def register(app):
     @app.get("/config/status")
     def config_status():
         return {"services": services_configured(), "env": settings.env}
+
+    @app.get("/posters/status")
+    def poster_status():
+        return {
+            "devto": devto_configured(),
+            "hashnode": hashnode_configured(),
+            "reddit": reddit_configured(),
+        }
 
     @app.get("/plans")
     def plans():
