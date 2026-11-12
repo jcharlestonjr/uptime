@@ -1,0 +1,22 @@
+app = "uptime-pro"
+primary_region = "sjc"
+
+[build]
+  dockerfile = "deploy/Dockerfile"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1
+
+[env]
+  APP_ENV = "production"
+  APP_DEBUG = "false"
